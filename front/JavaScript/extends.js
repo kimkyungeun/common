@@ -6,9 +6,17 @@
 	var thisFileName = "extends.js",
 	
 	importFiles = [
-		"common/comm_frm.js",
-		"common/comm_sys.js",
-		"common/comm_utl.js"
+		"common/@_app.js",
+		"common/@_ds.js",
+		"common/@_frm.js",
+		"common/@_grd.js",
+		"common/@_inf.js",
+		"common/@_main.js",
+		"common/@_msg.js",
+		"common/@_rpt.js",
+		"common/@_sys.js",
+		"common/@_tran.js",
+		"common/@_utl.js"
 	];
 
 M.ScriptLoader.writeScript( importFiles, M.ScriptLoader.scriptPath(thisFileName));
